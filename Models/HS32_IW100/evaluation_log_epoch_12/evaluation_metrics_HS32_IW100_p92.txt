@@ -1,0 +1,30 @@
+=== CONFIGURATION ===
+Hidden size (HS): 32
+Input window (IW): 100
+Threshold percentile: 92
+Epoch: 12
+
+=== CLASSIFICATION REPORT (FINAL) ===
+              precision    recall  f1-score   support
+
+      Normal     0.6602    0.8295    0.7352      1754
+      Attack     0.3898    0.2032    0.2671       940
+
+    accuracy                         0.6110      2694
+   macro avg     0.5250    0.5164    0.5012      2694
+weighted avg     0.5658    0.6110    0.5719      2694
+
+=== EVALUATION METRICS ===
+TN=1455 | FP=299 | FN=749 | TP=191
+Threshold value: 0.00099427
+Total errors (FP+FN): 1048
+Accuracy: 0.5961
+ROC-AUC: 0.7842
+Attack F1-score: 0.2671
+Precision: 0.3898
+Recall: 0.2032
+Attack-set MSE: mean=0.001302, std=0.004620
+
+=== OUTPUT FILES ===
+Confusion Matrix figure: confusion_matrix_HS32_IW100.png
+ROC curve figure: roc_curve_HS32_IW100.png
