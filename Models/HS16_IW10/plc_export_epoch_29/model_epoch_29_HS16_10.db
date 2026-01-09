@@ -1,7 +1,7 @@
 // --- Siemens Structured Format ---
-DATA_BLOCK "model__HS16_IW10_"
+DATA_BLOCK "model_HS16_IW10"
 { S7_Optimized_Access := 'TRUE' }
-VERSION : 
+VERSION : 0.1
 NON_RETAIN
    VAR
       W_i : ARRAY[0..15, 0..39] OF REAL;
